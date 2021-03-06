@@ -1,0 +1,42 @@
+.header {
+  color: #ffffff;
+  background-color: #414fa3;
+  padding: 0 10px;
+  height: 48px;
+  line-height: 48px;
+  .logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    vertical-align: middle;
+    float: left;
+    margin-top: 10px;
+  }
+  .title {
+    display: inline-block;
+    height: 48px;
+    font-size: 28px;
+    line-height: 48px;
+    font-weight: bold;
+    color: #fff;
+  }
+  .avatar {
+    width: 32;
+    height: 32;
+    margin-right: 5px;
+    img,
+    .avatarTxt {
+      display: inline-block;
+      vertical-align: middle;
+    }
+  }
+
+  .userinfo {
+    float: right;
+  }
+  .name {
+    height: 40px;
+    display: inline-block;
+    padding: 0 5px;
+  }
+}

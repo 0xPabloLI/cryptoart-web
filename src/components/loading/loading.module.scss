@@ -1,0 +1,12 @@
+.pageLoading {
+  height: 100%;
+  background: white;
+  position: relative;
+  min-height: 300px;
+  .spin {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+}
